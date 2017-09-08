@@ -8,7 +8,6 @@ venv/*
 
 # Compiled javascript
 ipyleaflet/static/
-ipyleaflet/staticlab/
 
 # OS X
 .DS_Store

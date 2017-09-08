@@ -23,9 +23,9 @@
     "webpack": "^3.5.5"
   },
   "dependencies": {
-    "@jupyter-widgets/base": "^1.0",
-    "leaflet": "^1.2.0",
-    "leaflet-draw": "^0.4.10",
+    "jupyter-js-widgets": "3.0.0-alpha.2",
+    "leaflet": "^0.7.7",
+    "leaflet-draw": "^0.3.0",
     "leaflet-side-by-side": "^2.0.0",
     "underscore": "^1.8.3"
   }

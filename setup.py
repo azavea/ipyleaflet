@@ -25,7 +25,7 @@ log.set_verbosity(log.DEBUG)
 log.info('setup.py entered')
 log.info('$PATH=%s' % os.environ['PATH'])
 
-LONG_DESCRIPTION = 'A Jupyter widget for dynamic Leaflet maps'
+LONG_DESCRIPTION = 'Azavea\'s fork of @ellisonbg\'s ipyleaflet'
 
 def js_prerelease(command, strict=False):
     """decorator for building minified js/css prior to another command"""
@@ -119,7 +119,7 @@ with open(os.path.join(here, 'ipyleaflet', '_version.py')) as f:
     exec(f.read(), {}, version_ns)
 
 setup_args = {
-    'name': 'ipyleaflet',
+    'name': 'az-ipyleaflet',
     'version': version_ns['__version__'],
     'description': 'A Jupyter widget for dynamic Leaflet maps',
     'long_description': LONG_DESCRIPTION,
